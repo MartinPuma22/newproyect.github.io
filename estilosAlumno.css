@@ -1,0 +1,152 @@
+/*Área para Estilos Externos EF*/
+
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #838C3F;
+}
+body{
+	font-family: arial; 
+	display: flex; 	
+   	
+}
+main{
+	display: flex;
+	align-items: center;
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  text-align: center;
+  font-size: 70px;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+aside{
+	justify-content: center;
+	width: 20%;
+	background-color: red;
+	height: 70vh;
+	display: flex;
+	align-items: flex-start;
+	padding-top: 90px;
+	flex: 1;
+	padding: 20px;
+}
+section{
+	display: flex;
+	width: 60%;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	flex: 2;
+	padding: 20px;
+}
+.contenedor{	
+	width: 1200px;
+	margin: auto;
+	padding: 0px;
+}
+.logo{
+	width: 100%;
+  	position: relative;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.logo::after {
+  content: "";
+  position: absolute;
+  top: 55%; 
+  left: 48%; 
+  width: 4%; 
+  height: 3px; 
+  background-color: white;
+  transform: translateX(-50%); 
+}
+.texto{
+	position: absolute;
+	top: 60%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: black; 
+  	font-size: 18px; 
+  	text-align: center;
+}
+.menu{
+	list-style: none;
+
+}
+.menu li{
+	display: inline-block;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 10px;
+	font-size: 20px;
+}
+.menu li a:hover{
+	color: #F2B138;
+}
+.contenedor2{
+	justify-content: space-between;
+	list-style: none;
+	text-align: center;
+	justify-content: center;
+
+}
+.contenedor2 li{
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px;
+	font-size: 15px;
+	margin: 10px 0;
+
+}
+.contenedor2 li a{
+	text-decoration: none;
+	color: white;
+	
+
+
+}
+.contenedor li a:hover{
+	text-decoration: underline;
+	color: #F5AC92;
+}
+.miniLogo {
+    display: flex; /* Habilita Flexbox en cada bloque */
+    flex-direction: column; /* Apila los elementos (imagen y texto) verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    margin: 20px; /* Margen entre los bloques */
+    text-align: center; /* Centra el texto dentro de cada bloque */
+}
+
+.miniLogo img {
+    width: 80%; /* Ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.miniLogo h2 {
+    margin: 10px 0; /* Margen superior e inferior para el título */
+}
+
+.miniLogo p {
+    margin: 5px 0; /* Margen para el precio */
+    font-size: 18px; /* Tamaño de fuente para el precio */
+}
+.principal{
+	display: flex;
+	width: 100%;
+}
